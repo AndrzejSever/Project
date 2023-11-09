@@ -1,0 +1,24 @@
+
+/* ?????? */
+
+.parent {
+    width: 200px;
+    height: 300px;
+    background-color: teal;
+    box-sizing: border-box;
+  }
+  
+  .child {
+    width: 50%;
+    height: 50%;
+    border: 1px solid #fff;
+    padding-left: 10%;
+    margin-top: 20%;
+    background-color: goldenrod;
+  }
+  .inner {
+    background: red;
+    height: 100%;
+  } 
+
+  /* ?????? */
