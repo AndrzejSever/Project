@@ -382,7 +382,7 @@
 
 
 
-//? Приклади використання bind()
+//? Приклади використання bind():
 
 // function foo() {
 //     console.log(this.f)
@@ -395,7 +395,7 @@
 // const audit = foo.bind(test);
 // audit();
 
-//? Приклади використання bind() у callback-функціях
+//? Приклади використання bind() у callback-функціях:
 
 // const customer = {
 //   firstName: "Jacob",
@@ -412,14 +412,19 @@
 
 // makeMessage(customer.getFullName.bind(customer))
 
+<<<<<<< Updated upstream
 //!Прототипне наслідування:
 
 const a = {};
 
 console.log(a);
 
+=======
+//? Рондомний буквенно-циферний пароль:
+>>>>>>> Stashed changes
 
-
+// const x = '_' + Math.random().toString(36).substring(2, 9);
+// console.log(x)
 
 
 // !\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
